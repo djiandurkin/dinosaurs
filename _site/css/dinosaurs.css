@@ -1,6 +1,235 @@
-Included file css/common.css not found in _includes directory
-Included file css/grid.css not found in _includes directory
-Included file css/icons.css not found in _includes directory
-Included file css/buttons.css not found in _includes directory
+html {
+	background-color: #e2e2e2;
+	font: normal 100%/1.4 Georgia,serif;
+}
+
+.ir {
+	overflow: hidden;
+
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+p {
+  margin: 0 0 1.4rem;
+}
+
+ul {
+  margin: 0 0 1.4rem;
+}
+
+/* http://yui.github.io/gridbuilder/ */
+.grid {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.31em;
+  *letter-spacing: normal;
+  *word-spacing: -0.43em;
+  text-rendering: optimizespeed;
+}
+.opera-only :-o-prefocus,
+.grid {
+  word-spacing: -0.43em;
+}
+.unit {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  text-rendering: auto;
+  vertical-align: top;
+  word-spacing: normal;
+}
+.unit-spacer {
+  padding: 8px;
+}
+.unit-s-hidden {
+  display: none;
+  visibility: hidden;
+}
+.unit-s-1 {
+  display: block;
+  width: 100%;
+}
+.unit-s-1-2,
+.unit-s-1-3,
+.unit-s-2-3,
+.unit-s-1-4,
+.unit-s-3-4 {
+  display: inline-block;
+  *display: inline;
+  visibility: visible;
+  width: 100%;
+}
+.unit-s-1-2 {
+  width: 50%;
+}
+.unit-s-1-3 {
+  width: 33.33333%;
+}
+.unit-s-2-3 {
+  width: 66.66667%;
+}
+.unit-s-1-4 {
+  width: 25%;
+}
+.unit-s-3-4 {
+  width: 75%;
+}
+@media only screen and (min-width: 38em) {
+  .unit-m-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .unit-m-1 {
+    display: block;
+    width: 100%;
+  }
+  .unit-m-1-2,
+  .unit-m-1-3,
+  .unit-m-2-3,
+  .unit-m-1-4,
+  .unit-m-3-4 {
+    display: inline-block;
+    *display: inline;
+    visibility: visible;
+    width: 100%;
+  }
+  .unit-m-1-2 {
+    width: 50%;
+  }
+  .unit-m-1-3 {
+    width: 33.33333%;
+  }
+  .unit-m-2-3 {
+    width: 66.66667%;
+  }
+  .unit-m-1-4 {
+    width: 25%;
+  }
+  .unit-m-3-4 {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .unit-l-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .unit-l-1 {
+    display: block;
+    width: 100%;
+  }
+  .unit-l-1-2,
+  .unit-l-1-3,
+  .unit-l-2-3,
+  .unit-l-1-4,
+  .unit-l-3-4 {
+    display: inline-block;
+    *display: inline;
+    visibility: visible;
+    width: 100%;
+  }
+  .unit-l-1-2 {
+    width: 50%;
+  }
+  .unit-l-1-3 {
+    width: 33.33333%;
+  }
+  .unit-l-2-3 {
+    width: 66.66667%;
+  }
+  .unit-l-1-4 {
+    width: 25%;
+  }
+  .unit-l-3-4 {
+    width: 75%;
+  }
+}
+
+.icon {
+	display: inline-block;
+
+	background: transparent none no-repeat center center;
+	background-size: contain;
+
+	vertical-align: middle;
+}
+
+.i-16 {
+	height: 16px;
+	width: 16px;
+}
+
+.i-32 {
+	height: 32px;
+	width: 32px;
+}
+
+.icon-link {
+	display: block;
+
+	color: #66f;
+	text-decoration: none;
+}
+
+.icon-label {
+	border-bottom: 1px solid rgba(102, 102, 255, 0.5);
+}
+
+.btn {
+	padding: 0.7em 0.9em;
+	display: inline-block;
+	background-color: #33c;
+	background-image: linear-gradient(to bottom, #33c, #336);
+	border-radius: 8px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #33f;
+	background-image: linear-gradient(to bottom, #33f, #339);
+}
+
+.btn-large {
+	font-size: 1.25rem;
+}
+
+.btn-small {
+	font-size: 0.75rem;
+}
+
+.btn-buy {
+	background-color: #3c3;
+	background-image: linear-gradient(to bottom, #3c3, #363);
+}
+
+.btn-buy:hover {
+	background-color: #3f3;
+	background-image: linear-gradient(to bottom, #3f3, #393);
+}
+
 Included file css/media-objects.css not found in _includes directory
-Included file css/list-group.css not found in _includes directory
+.list-group {
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.list-group-item {
+	display: block;
+}
+
+.list-group-item-inline {
+	display: inline-block;
+}
+
